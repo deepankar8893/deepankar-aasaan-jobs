@@ -91,7 +91,7 @@ equal to the height of the tree, is:
 
 a. 60°
 b. 30°
-c. 45°  
+c. 45°   *(ANSWER)
 d. None of these
 
 
@@ -107,7 +107,7 @@ d. 7x2
 of that fraction and its reciprocal.
 
 a. 41 / 20
-b. 17 / 20
+b. 17 / 20 *(ANSWER)
 c. 9 / 20
 d. 11 / 20
 
@@ -127,13 +127,13 @@ its present?
 
 a. 63
 b. 64.5
-c. 62.5
+c. 62.5 *(ANSWER)
 d. 60.5
 
 11)Find the odd man out. 1, 8, 27, 64, 125, 196, 216, 343
 
 a. 64
-b. 196
+b. 196 *(ANSWER)
 c. 216
 d. 1
 
@@ -166,7 +166,7 @@ d. 4 hr
 with Rs.60000. Kamal received Rs.58000 including 10% of profit as commission 
 for managing the business. What amount did Kiran receive?
 
-a. 75000
+a. 75000 *(ANSWER)
 b. 70000
 c. 78000
 d. 72000
@@ -177,7 +177,7 @@ d. 72000
  
 
 a. 6
-b. 12
+b. 12 *(ANSWER)
 c. 10
 d. 5
 
@@ -185,7 +185,7 @@ d. 5
 
 17) What number replaces the question mark?
  
-a. 5
+a. 5 *(ANSWER)
 b. 4
 c. 6
 d. 3
@@ -577,7 +577,7 @@ e. None of the above
 
 23) Which of the following Collection are synchronized by nature ?
 
-a. Vector
+a. Vector *(ANSWER)
 b. SortedSet
 c. HashTable
 d. HashMap
@@ -638,7 +638,7 @@ a. Multithreading
 b. Reflection
 c. Operator Overloading
 d. Garbage Collection
-e. None of the above
+e. None of the above Reflection
 
 
 30) Which of these interfaces must contain a unique element?

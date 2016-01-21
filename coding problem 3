@@ -1,0 +1,56 @@
+//Proble 3 Closest to zero
+
+#include <bits/stdc++.h>
+using namespace std;
+
+
+
+/*Algorithm
+sort the array
+take two indexes start and end;
+start point to start of array and end points to the end of the array;
+do untile start <end;
+sum = arr[start] +arr[end];
+if sum is greater than zero then increase the start
+if sum is less than zero then increase the end
+and keep the track of minimum absolute sum
+*/
+
+//time complexity O(nlogn +n)
+//O(nlon) for sorting the array and O(n) for scanning the array
+
+int main() {
+	
+	int n;
+	
+	//get array size;
+	cin>>n;
+	vector<int> arr(n);
+	//get the array elements
+	for(int i=0;i<n;i++)
+	    cin>>arr[i];
+	    
+	 //now sort the array
+	 sort(arr.begin(),arr.end());
+	 int start=0;
+	 int end =n-1;
+	 int ans=INT_MAX;
+	 int x=0,y=0;
+	 
+	 int sum;
+	 
+	 while(start<end){
+	     sum=arr[start]+arr[end];
+	     if(abs(sum)<=ans){
+	         ans=abs(sum);
+	         x=start;
+	         y=end;
+	     }
+	     if(sum<0)
+	     start++;
+	     else
+	     end--;
+	 }
+	cout<<arr[x]<<" "<<arr[y]<<" are closest to zero";
+	return 0;
+}

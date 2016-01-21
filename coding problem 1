@@ -1,0 +1,48 @@
+//PROBLWM 1 Coding
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
+
+//Problem 1 Help Sheeba out
+
+
+/*
+Algorithm:
+scan all the numbers and for each the number arr[i] mark its position i.e. multiply the position arr[i] to negative
+in the array;
+now during the scan if we found out position is already marked then this is the answer
+*/
+
+
+//we can sove this problem in O(N) time complexity
+//with O(1) space complexity
+int main() {
+	int arr[101];
+	
+	//take the random number from the sheeba
+	for(int i=1;i<101;i++)
+	    cin>>arr[i];
+	    
+	for(int i=1;i<101;i++){
+	    
+	    if(arr[i]>0)
+	    arr[arr[i]]*=-1;
+	    else{
+	        arr[-1*arr[i]]*=-1;
+	    }
+	    if(arr[arr[i]]>0){
+	        cout<<arr[i]<<" this number is the repeated number";
+	        break;
+	    }
+	}
+	
+	return 0;
+}
+
+
+
+
+
+

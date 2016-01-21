@@ -267,10 +267,14 @@ They need to use minimum number of rats (as PETA are always running after them) 
 Can you find out a methodology to use minimum number of rats to find out the defective?
 Hint: the answer is less than 10.
 
+AREA-51 : It is supossed that US has captured some Aliens and experimenting on them in area-51.
 
 
 ANSWER: we need at max 7 rats to find out the problamatic bottle.
-Explanation :
+Explanation : We don't need to test each bottle with each rat. Instead of that consider each of rat as a bit, now we know that 7 bits can make
+128 unique number, so we number each bottle from 1 to 100 and convert each of the number in their binary form. We lable each rat from bit 1 to 7 and according to the bits of the
+bottle if a bit of binary is set then we test that drug on the corresponding rat. And after one hour we can tell the problamatic bottle according to the rats died in the test;
+
 
 
 
